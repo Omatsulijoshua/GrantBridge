@@ -1,0 +1,112 @@
+/* src/css/variables.css */
+
+:root {
+  /* Font Families */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Outfit', 'Inter', system-ui, sans-serif;
+
+  /* Theme: Light (Default) */
+  --bg-primary: #f8fafc;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #f1f5f9;
+  
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  
+  --border-color: #e2e8f0;
+  --border-focus: #6366f1;
+
+  /* Brand Colors */
+  --brand-primary: #4f46e5;      /* Indigo 600 */
+  --brand-primary-hover: #4338ca;/* Indigo 700 */
+  --brand-primary-light: #e0e7ff;/* Indigo 100 */
+  
+  --brand-secondary: #0ea5e9;    /* Sky 500 */
+  --brand-secondary-hover: #0284c7;
+  
+  /* Accent Colors */
+  --accent-success: #10b981;      /* Emerald 500 */
+  --accent-success-light: #d1fae5;
+  --accent-success-dark: #065f46;
+  
+  --accent-warning: #f59e0b;      /* Amber 500 */
+  --accent-warning-light: #fef3c7;
+  --accent-warning-dark: #92400e;
+  
+  --accent-danger: #ef4444;       /* Red 500 */
+  --accent-danger-light: #fee2e2;
+  --accent-danger-dark: #991b1b;
+
+  --accent-info: #3b82f6;         /* Blue 500 */
+  --accent-info-light: #dbeafe;
+
+  /* Glassmorphism */
+  --glass-bg: rgba(255, 255, 255, 0.75);
+  --glass-border: rgba(226, 232, 240, 0.8);
+  --glass-blur: 12px;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow-glow: 0 0 15px rgba(79, 70, 229, 0.15);
+
+  /* Border Radii */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.25s ease;
+  --transition-slow: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Dark Theme Variables */
+[data-theme="dark"] {
+  --bg-primary: #0b0f19;         /* Very dark slate */
+  --bg-secondary: #131c2e;       /* Deep slate card */
+  --bg-tertiary: #1e293b;        /* Slate 800 */
+  
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #64748b;
+  
+  --border-color: #2e3c54;
+  --border-focus: #818cf8;
+
+  --brand-primary: #6366f1;      /* Indigo 500 */
+  --brand-primary-hover: #4f46e5;
+  --brand-primary-light: #1e1b4b;/* Indigo 950 */
+  
+  --brand-secondary: #38bdf8;    /* Sky 400 */
+  
+  --accent-success: #34d399;
+  --accent-success-light: #064e3b;
+  --accent-success-dark: #a7f3d0;
+
+  --accent-warning: #fbbf24;
+  --accent-warning-light: #78350f;
+  --accent-warning-dark: #fde68a;
+
+  --accent-danger: #f87171;
+  --accent-danger-light: #7f1d1d;
+  --accent-danger-dark: #fca5a5;
+
+  --accent-info: #60a5fa;
+  --accent-info-light: #1e3a8a;
+
+  /* Glassmorphism Dark */
+  --glass-bg: rgba(19, 28, 46, 0.75);
+  --glass-border: rgba(46, 60, 84, 0.6);
+  
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -2px rgba(0, 0, 0, 0.3);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.4);
+  --shadow-glow: 0 0 20px rgba(99, 102, 241, 0.2);
+}
