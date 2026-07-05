@@ -306,7 +306,7 @@ export default function BrowseGrants() {
                         {grant.title}
                       </h3>
                       <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginTop: '0.25rem' }}>
-                        Posted by <strong>{grant.providerName}</strong>
+                        Posted by <Link to={`/providers/${grant.providerId}`} style={{ color: 'var(--brand-primary)', fontWeight: 600 }}>{grant.providerName}</Link>
                       </p>
                     </div>
 

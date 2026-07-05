@@ -20,6 +20,8 @@ import BrowseGrants from './pages/public/BrowseGrants';
 import PricingPage from './pages/public/PricingPage';
 import ContactPage from './pages/public/ContactPage';
 import AuthPage from './pages/public/AuthPage';
+import ProviderProfile from './pages/public/ProviderProfile';
+
 
 // Student
 import StudentDashboard from './pages/student/StudentDashboard';
@@ -113,6 +115,8 @@ function AppContent() {
           <Route path="/pricing" element={<PricingPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/auth" element={<AuthPage />} />
+          <Route path="/providers/:id" element={<ProviderProfile />} />
+
 
           {/* Student Dashboard (Protected) */}
           <Route path="/dashboard" element={

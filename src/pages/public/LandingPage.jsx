@@ -160,7 +160,7 @@ export default function LandingPage() {
                 </div>
                 <h3 className="card-title" style={{ marginTop: '0.5rem' }}>{grant.title}</h3>
                 <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '1rem' }}>
-                  By {grant.providerName}
+                  By <Link to={`/providers/${grant.providerId}`} style={{ color: 'var(--brand-primary)', fontWeight: 600 }}>{grant.providerName}</Link>
                 </p>
                 <p className="card-body" style={{ flex: 1 }}>
                   {grant.description.substring(0, 120)}...
